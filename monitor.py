@@ -25,4 +25,4 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     msg = f'Subject: {subject}\n\n{body}'
 
     # logging.info('Sending Email...')
-    smtp.sendmail(EMAIL_ADDRESS, 'cbautista2013@gmail.com', msg)
+    smtp.sendmail(EMAIL_ADDRESS, '', msg)
